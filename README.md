@@ -1,2 +1,2 @@
-# Metodologia de la programacion 
-    Universidad Politecnica de Aguascalientes 
+# Metodologia de la programacion              
+ Universidad Politecnica de Aguascalientes 
