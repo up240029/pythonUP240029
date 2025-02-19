@@ -38,7 +38,17 @@ interX = interY/penRecta
 print("La pendiente de la recta es: ",penRecta)
 print("la interseccion en y es: " , interY)
 print("La interseccion en x es: " , interX)
-#programa 9
+#Programa 9
+x1 = 2
+y1 = 2
+x2 = 6
+y2 = 10
+m1 = y2-y1 
+m2 = x2 - x1 
+m = m1 /m2
+print("la pendiente es: " , m)
+
+
 
 
 
