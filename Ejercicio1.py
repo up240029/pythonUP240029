@@ -30,5 +30,15 @@ area = pi * radio**2
 perimetro = 2 * pi * radio
 print("El area del cireculo es: ",area)
 print("El perimertro es: " , perimetro)
+#Programa 8
+#Pendiente de la recta y = 2x-2
+penRecta = 2
+interY = -2
+interX = interY/penRecta
+print("La pendiente de la recta es: ",penRecta)
+print("la interseccion en y es: " , interY)
+print("La interseccion en x es: " , interX)
+#programa 9
+
 
 
