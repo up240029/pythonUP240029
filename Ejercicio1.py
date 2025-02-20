@@ -47,6 +47,20 @@ m1 = y2-y1
 m2 = x2 - x1 
 m = m1 /m2
 print("la pendiente es: " , m)
+#Programa 10
+print("pendientes son iguales "if penRecta == m else "las pendientes son diferentes ")
+#Programa 11
+x = int(input ("inserta el valor de x: "))
+y = x**2 + 6*x +9
+print("El valro de y es: " , y)
+if y == 0 :
+    print("y es 0 cuando x es: ", x)
+else:
+    print("y no es 0 cuado x es: ", x)
+    
+#Programa 12
+print(len("phyton")>len("dragon"))
+#Programa 13
 
 
 
