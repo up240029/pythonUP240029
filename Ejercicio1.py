@@ -61,6 +61,15 @@ else:
 #Programa 12
 print(len("phyton")>len("dragon"))
 #Programa 13
+print("on"in "phyton"and "on" in "dragon")
+#Programa 14
+oracion = "I hope this course is not full in jargon" 
+print("jargon" in oracion )
+#PROGRAMA 15
+print("on" not in "phyton" and "on" not in "dragon")
+#Programa 16
+print(str(float(len("phyton"))))
+#Programa 17
 
 
 
