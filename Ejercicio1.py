@@ -70,6 +70,46 @@ print("on" not in "phyton" and "on" not in "dragon")
 #Programa 16
 print(str(float(len("phyton"))))
 #Programa 17
+def esPar(num):
+    return num % 2==0
+a = int(input("Ingresa el numero: "))
+if esPar(a):
+    print("{a} es numero par.")
+else:
+    print("{a} es numero impar")
+#Programa 18
+res = 7//3 == int(2.7)
+print(res)
+#Programa 19
+res = type("10") == type(10)
+print(res)
+#Programa 20
+res = int("9.8") == 10
+print(res)
+# Programa 21
+hora = float(input("Ingrese las horas que trabajo: "))
+Tar = float(input("Ingrese la tarifa: "))
+pagoTotal = hora * Tar
+print("El pago total es: ", pagoTotal)
+#Pograma 22
+años = int(input("Ingrese sus años vividos: "))
+maxAños = 100
+segXaños = 365 * 24 * 60 * 60
+# Verificar que no se supere el limite
+if años > maxAños:
+    print("El maximo de años permitidos es {maxAños}. Se va a usar {maxAños} para el calculo")
+    años = maxAños
+seg = años * segXaños
+print("En {años} años una persona puede vivir {seg} segundos.")
+# Programa 23
+print(" numero cuadrado cubo")
+print("---------------------")
+for num in range(1, 11):
+    cuadrado = num ** 2
+    cubo = num ** 3
+print("{num:<7} {cudadrado:<7} {cubo:<7}")
+
+
 
 
 
