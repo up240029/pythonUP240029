@@ -70,13 +70,11 @@ print("on" not in "phyton" and "on" not in "dragon")
 #Programa 16
 print(str(float(len("phyton"))))
 #Programa 17
-def esPar(num):
-    return num % 2==0
-a = int(input("Ingresa el numero: "))
-if esPar(a):
-    print("{a} es numero par.")
+num =int(input("ingresa un numero: "))
+if num % 2 == 0:
+    print("El numero es par")
 else:
-    print("{a} es numero impar")
+    print("El numero es impar")
 #Programa 18
 res = 7//3 == int(2.7)
 print(res)
@@ -102,12 +100,11 @@ if años > maxAños:
 seg = años * segXaños
 print("En {años} años una persona puede vivir {seg} segundos.")
 # Programa 23
-print(" numero cuadrado cubo")
-print("---------------------")
-for num in range(1, 11):
-    cuadrado = num ** 2
-    cubo = num ** 3
-print("{num:<7} {cudadrado:<7} {cubo:<7}")
+print("1 1 1 1 1")
+print("2 1 2 4 8")
+print("3 1 3 9 27")
+print("4 1 4 16 64")
+print("5 1 5 25 125")
 
 
 
