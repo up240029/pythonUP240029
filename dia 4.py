@@ -62,9 +62,13 @@ compi = 'Coding For All People'
 print(compi.rfind('l'))
 #Programa 23
 sentece = 'You cannot end a sentence whit because because because is a conjuction'
-sentece = sentece.split()
+senteceSplit = sentece.split()
 print(sentece.index('because'))
 #Programa 24
+print(sentece.rindex('because'))
+#Programa 25
+print(sentece[0:30]+sentece[54:71])
+#Programa 26
 
 
 
