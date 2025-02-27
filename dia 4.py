@@ -74,9 +74,9 @@ print(sentece.index('becasue'))
 print(sentece[0:30]+sentece[54:71])
 #Programa 28
 Substring = 'Coding'
-print(Substring + company)
-print(company.index(Substring))
-print(Substring in company)
+print(company.startswith(Substring))
+#Programa 29
+print(company.endswith(Substring))
 
 
 
