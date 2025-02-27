@@ -69,7 +69,14 @@ print(sentece.rindex('because'))
 #Programa 25
 print(sentece[0:30]+sentece[54:71])
 #Programa 26
-
+print(sentece.index('becasue'))
+#Programa 27
+print(sentece[0:30]+sentece[54:71])
+#Programa 28
+Substring = 'Coding'
+print(Substring + company)
+print(company.index(Substring))
+print(Substring in company)
 
 
 
