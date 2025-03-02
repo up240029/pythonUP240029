@@ -69,7 +69,7 @@ print(sentece.rindex('because'))
 #Programa 25
 print(sentece[0:30]+sentece[54:71])
 #Programa 26
-print(sentece.index('becasue'))
+print(sentece.index('because'))
 #Programa 27
 print(sentece[0:30]+sentece[54:71])
 #Programa 28
@@ -77,6 +77,29 @@ Substring = 'Coding'
 print(company.startswith(Substring))
 #Programa 29
 print(company.endswith(Substring))
+#Programa 30
+compe = ' Coding For All '
+print(compe.strip())
+#Programa 31
+challenge = '30DaysofPython'
+print(challenge.isidentifier())
+challenge2 = 'thirtydaysofphyton'
+print(challenge2.isidentifier())
+#Programa 32
+Librerias = ['Djamgo', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print('#'.join(Librerias))
+#Programa 33
+print('I am enjoying this cahallenge.' '\n' 'I just wonder what is next.')
+#Programa 34
+print('Name' + '\t' + 'Age' + '\t'  + 'Country' + '\t'+ 'City')
+print('Asabeneh' + '\t' + '250' + '\t' + 'Finland'+ '\t' + 'Helsinky')
+#Progrma 35
+radio = 10
+area = 3.14 * radio ** 2
+print('El area del circulo es:' + str(area))
+#Progrma 36
+
+
 
 
 
