@@ -98,6 +98,13 @@ radio = 10
 area = 3.14 * radio ** 2
 print('El area del circulo es:' + str(area))
 #Progrma 36
+print("8 + 6 = {}".format(8 + 6))
+print("8 - 6 = {}".format(8 - 6))
+print("8 * 6 = {}".format(8 * 6))
+print("8 / 6 = {}".format(8 / 6))
+print("8 % 6 = {}".format(8 % 6))
+print("8 // 6 = {}".format(8 // 6))
+print("8 ** 6 = {}".format(8 ** 6))
 
 
 
