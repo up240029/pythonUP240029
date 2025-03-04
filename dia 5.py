@@ -41,6 +41,9 @@ print(doesExist)
 #Programa 16
 itCompanies.sort()
 print(itCompanies)
-
+#Programa 17
+itCompanies.reverse()
+print(itCompanies)
+#Programa 18
 
 
