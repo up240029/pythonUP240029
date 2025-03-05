@@ -45,5 +45,39 @@ print(itCompanies)
 itCompanies.reverse()
 print(itCompanies)
 #Programa 18
-
+print(itCompanies[3:9])
+#Programa 19
+print(itCompanies[0:6])
+#Programa 20
+print(itCompanies[0:4]+itCompanies[5:9])
+#Programa 21
+del itCompanies[0]
+print(itCompanies)
+#Programa 22
+del itCompanies[5]
+print(itCompanies)
+#Programa 23
+itCompanies.pop() 
+print(itCompanies)
+#Programa 24
+del itCompanies
+#Programa 25
+#itCompanies.clear()// Con este comando limpias o destruyes la lista 
+#Programa 26
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+lista = front_end + back_end
+print(lista)
+#Programa 27
+fullStak= lista.copy()
+fullStak.insert(5,'python')
+fullStak.insert(6,'sql')
+print(fullStak)
+# Nivel 2
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages[0],ages[len(ages)-1])
+ages.insert(0,19)
+ages.insert(-1, 26)
+print(ages)
 
