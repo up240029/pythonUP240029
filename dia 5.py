@@ -80,4 +80,12 @@ print(ages[0],ages[len(ages)-1])
 ages.insert(0,19)
 ages.insert(-1, 26)
 print(ages)
-
+mediana = (ages[4]+ages[5]/2)
+print('La media es:', mediana)
+prom = sum(ages)/len(ages)
+print('El promedio es:',prom)
+comparacion =(ages[0]-prom)and (ages[-1]-prom)
+print('El resultado de la comparacion es:',comparacion)
+import pruebas as p
+paises = p.countries
+print(len(paises))
