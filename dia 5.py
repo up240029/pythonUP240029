@@ -86,6 +86,22 @@ prom = sum(ages)/len(ages)
 print('El promedio es:',prom)
 comparacion =(ages[0]-prom)and (ages[-1]-prom)
 print('El resultado de la comparacion es:',comparacion)
+#1
 import pruebas as p
 paises = p.countries
 print(len(paises))
+paisMi =(len(paises))//2
+print(paisMi)
+int(paisMi)
+print(paises[int(paisMi-1)]+','+paises[int(paisMi)] )
+#2
+List1 = paises[0:95]
+List2 = paises[96:192]
+print('Lista no. 1:',List1)
+print('Lista no. 2:',List2)
+#3
+p.countries = ['China', 'Rusia', 'EE. UU.', 'Finlandia', 'Suecia', 'Noruega', 'Dinamarca']
+p1,p2,p3,  * escandinavos = p.countries
+print(escandinavos)
+
+
