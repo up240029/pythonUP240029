@@ -15,3 +15,14 @@ print(it_companies)
 it_companies.remove('Google')
 print(it_companies)
 #Programa 5
+#¿Cuál es la diferencia entre eliminar y descartar?
+#Si usas el comando remove () si el caracter o el valor no se encuentra en el set, este arrojara error  y 
+#con el comando discard no te dara nada
+#Nivel 2
+#1
+print(A.union(B))
+#2
+print(A.intersection(B))
+#3
+print(A.issubset(B))
+
