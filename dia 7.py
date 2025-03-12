@@ -35,7 +35,22 @@ print(A.symmetric_difference(B))
 #7
 del A
 #Nivel 3
-
+#1
+ages = set(age)
+print(len(age))
+print(len(ages))
+compa = len (age) == len (ages)
+print('¿Las listas son iguales?', compa)
+#2
+#La principal diferencia entre estos es que los sets no permiten datos repetios mientras que las tuplas y listas si
+#Y lo mas obvio la sintaxis de cada uno
+#3
+frase1 = {'Soy' , 'profesor' , 'y' , 'me' , 'encanta' , 'inspirar' , 'y' , 'enseñar' , 'a' , 'la ', 'gente'}
+frase = {"Soy", "profesor", "y", "me", "encanta" }
+frase2 ={"inspirar", "y" ,"enseñar", "a", "la" ,"gente"}
+compara =frase.symmetric_difference(frase2)
+print(compara)
+print(len(compara))
 
 
 
