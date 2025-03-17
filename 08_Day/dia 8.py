@@ -26,3 +26,22 @@ estudiantes = {
 #Programa 4
 print(len(estudiantes))
 #Programa 5
+print(estudiantes['Habilidades'])
+print(type(estudiantes['Habilidades']))
+#Programa 6
+estudiantes['Habilidades'].append('programar')
+estudiantes['Habilidades'].append('conducir')
+print(estudiantes)
+#Programa 7
+keys = estudiantes.keys()
+print(keys)
+#Programa 8
+values = estudiantes.values()
+print(values)
+#Programa 9
+print(estudiantes.items())
+#Programa 10
+estudiantes.pop('Direccion')
+print(estudiantes)
+#Programa 11
+del estudiantes
