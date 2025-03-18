@@ -82,7 +82,9 @@ print(res)
 res = type("10") == type(10)
 print(res)
 #Programa 20
-res = int("9.8") == 10
+res = float("9.8") == 10
+
+
 print(res)
 # Programa 21
 hora = float(input("Ingrese las horas que trabajo: "))
@@ -107,7 +109,7 @@ print("4 1 4 16 64")
 print("5 1 5 25 125")
 
 
-
+print('Revisado')
 
 
 
