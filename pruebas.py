@@ -194,5 +194,11 @@ countries = [
   'Zambia',
   'Zimbabwe',
 ];
-
-
+2
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruta = str(input('Ingresa la fruta:'))
+if fruta in fruits:
+    print('Esta fruta si existe en esta lista')
+else:
+    fruits.append(fruta)
+    print(fruits)
