@@ -80,7 +80,7 @@ if 'skills' in person:
 #2
     if 'Python' in person['skills']:
         print(person['skills'])
-# 
+# 3
 if 'skills' in person:
     hab = person['skills']
     if 'JavaScrip'in hab and 'React'in hab:
@@ -91,3 +91,6 @@ if 'skills' in person:
         print('He is a fullstack developer')
     else:
         print('unknown title')
+#4
+if person['is_marred'] == True and 'Finland' in person['country']:
+    print('Asabeneh Yetayeh vive en Finland, y es casado')
