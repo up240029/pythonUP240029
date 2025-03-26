@@ -69,3 +69,48 @@ print('suma par')
 print(sum(par))
 print('suma impar')
 print (sum(impar))
+#Nivel 3
+#1
+from countries import countries
+for country in countries:
+    if 'land' in country:
+        print(country)
+
+#2
+frutas = ['banana', 'naranja', 'mango', 'limón']
+for fruta in reversed(frutas):
+    print(fruta)
+
+#3
+#1
+import countriesData as datac 
+
+datos = datac.countries 
+countryLanguage = []
+for pais in datos:
+    for lenguaje in pais['languages']:
+        countryLanguage.append(lenguaje)
+        
+print('estos son los lenguajes que hay : ', len(countryLanguage))
+ #2
+setlanguages = set(countryLanguage)
+dictlanguages = {
+
+}
+for language in setlanguages:
+    dictlanguages[language] = 0
+
+print(dictlanguages)
+
+for idioma in dictlanguages:
+    for pais in datos:  
+         if idioma in pais['languages']:
+             dictlanguages[idioma] = pais['population'] + dictlanguages[idioma]
+
+sortValuesLanguagespopulation = sorted(dictlanguages.values(), reverse= True)
+sorfkeyslanguagespopulation = sorted(dictlanguages, key= dictlanguages.get, reverse=True)
+
+print( sorfkeyslanguagespopulation[1] ,sortValuesLanguagespopulation[1])
+#3
+for i in range(10):
+    print(sorfkeyslanguagespopulation[i] ,sortValuesLanguagespopulation[i])
