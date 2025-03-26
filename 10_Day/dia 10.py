@@ -34,4 +34,38 @@ oper = 0
 while oper< 11:
     print('{} x {}= {}'.format(oper,oper,oper*oper))
     oper = oper +1 
+# 6
+lengs = ['Python', 'Numpy', 'Pandas', 'Django', 'Flask']
+for leng in lengs:
+    print(lengs)
+#7
+n = 0
+while n < 101:
+    print(n)
+    n = n +2 
 
+#8 
+n = 1
+while n < 101:
+    print(n)
+    n = n +2
+
+#Nivel 2
+#1
+num = 0
+for t in range(101):
+    num = num + t 
+    print(num)
+
+#2
+par = []
+impar = []
+for t in range (101):
+    if t % 2 == 0:
+        par.append(t)
+    else:
+        impar.append(t)
+print('suma par')
+print(sum(par))
+print('suma impar')
+print (sum(impar))
