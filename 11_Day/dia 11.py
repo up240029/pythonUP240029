@@ -48,3 +48,32 @@ def calculateSlope (x1,y1,x2,y2):
 pendiente = calculateSlope (1,2,3,6)
 print ('la pendiente es ', pendiente)
 #7
+def sloveQuadraticEqn (a,b,c):
+    if a == 0 :
+        return
+    dis = b**2 - 4*a*c
+    if dis > 0 :
+        x1=(-b+d**0.5)/(2*a)
+        x2=(-b-d**0.5)/(2*a)
+        return x1,x2
+    elif dis == 0:
+        x = -b/(2*a)
+        return x
+    else :
+        return 'No tiene solucion'
+Ecuacion = sloveQuadraticEqn (a = 2, b = 3, c = 7)
+print ('La solucion es :', Ecuacion)
+#8
+def printList (lista) :
+    for elemento in lista :
+        print (elemento)
+printList( lista = [2,3,5,6,1,8,])
+#9
+def reverseList (lista):
+    listaIn=[]
+    for i in range(len(lista)-1,-1,-1):
+        listaIn.append(lista[i])
+    return listaIn
+print(reverseList(lista=[4,7,3,9,5]))
+
+
