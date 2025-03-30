@@ -53,8 +53,8 @@ def sloveQuadraticEqn (a,b,c):
         return
     dis = b**2 - 4*a*c
     if dis > 0 :
-        x1=(-b+d**0.5)/(2*a)
-        x2=(-b-d**0.5)/(2*a)
+        x1=(-b+dis**0.5)/(2*a)
+        x2=(-b-dis**0.5)/(2*a)
         return x1,x2
     elif dis == 0:
         x = -b/(2*a)
@@ -76,4 +76,42 @@ def reverseList (lista):
     return listaIn
 print(reverseList(lista=[4,7,3,9,5]))
 
-
+#10
+def capitalizeListItems (items):
+    return [item.upper() for item in items]
+List = ['q','d','d']
+listM =capitalizeListItems(List)
+print(listM)
+#11
+def addItem (lista,elemento):
+    lista.append(elemento)
+    return lista
+food_staff = ['Potato', 'Tomato', 'Mango', 'Milk']
+print(addItem(food_staff,'Meat'))
+#12
+def removeItem (lista,elemento):
+    lista.remove(elemento)
+    return lista 
+food_staff = ['Potato', 'Tomato', 'Mango', 'Milk']
+print(removeItem(food_staff, 'Mango'))
+#13
+def sumaNumeros(num):
+    suma=0
+    for i in range(1,num+1):
+        suma=suma+i
+    return suma
+print(sumaNumeros(num=5))
+#14
+def sumaImpares(num):
+    suma=0
+    for i in range(1,num+1,2):
+        suma=suma+i
+    return suma
+print(sumaImpares(num=7))
+#15
+def sumaPares(num):
+    suma=0
+    for i in range(0,num+1,2):
+        suma=suma+i
+    return suma
+print(sumaPares(num=5))
