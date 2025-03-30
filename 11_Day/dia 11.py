@@ -115,3 +115,35 @@ def sumaPares(num):
         suma=suma+i
     return suma
 print(sumaPares(num=5))
+#Nivel 2
+#1
+def evensAndOdds (num) :
+    impar = 0
+    par = 0
+    for i in range (1,num +1):
+        if i % 2 == 0:
+            par = par +1
+        else :
+            impar = impar + 1
+    return par, impar 
+print(evensAndOdds(num = 100))
+#1.1
+def factorial (num) :
+    fac = 1
+    for i in range (1,num + 1):
+        fac = fac*i
+        return fac
+print(factorial(num = 7))
+#2
+def isEmpty (cosa):
+    if len(cosa) == 0:
+        return True
+    else :
+        return False
+    
+print (isEmpty(cosa = []))
+#3
+def media(lista):
+    return sum(lista)/len(lista)
+print(media(lista=[1,2,3,4,5]))
+#No entendi si tenia que hacer todas las funciones o solo elegir una jajaj 
