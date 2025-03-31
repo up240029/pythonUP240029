@@ -147,3 +147,28 @@ def media(lista):
     return sum(lista)/len(lista)
 print(media(lista=[1,2,3,4,5]))
 #No entendi si tenia que hacer todas las funciones o solo elegir una jajaj 
+# Nivel 3
+#1
+def isPrime (n):
+    if n <=1:
+        return False
+    for i in range (2,int(n**0.5)+1):
+        if n % i == 0:
+            return False
+        return True
+print(isPrime(n = 13))
+#2
+def allUnique (list):
+    return len(list) == len(set(list))
+print(allUnique([1,3,4,6,6]))
+#3
+def sameType (list):
+    return all(isinstance(list[0],type(elemento)) for elemento in list)
+print(sameType([1,2,3,4]))
+#4
+def isPythonVariable(variable):
+    if variable.isidentifier():
+        return True
+    else:
+        return False
+print(isPythonVariable(variable='variable1'))
