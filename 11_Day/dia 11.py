@@ -172,3 +172,37 @@ def isPythonVariable(variable):
     else:
         return False
 print(isPythonVariable(variable='variable1'))
+#5
+import CountriesData as datosC
+datos = datosC.countries
+countryLen = []
+def masHablados ():
+    for pais in datos:
+        for lenguaje in pais ['languages']:
+            countryLen.append(lenguaje)
+    setLen = set(countryLen)
+    dicLen = {
+
+    }
+    for lenguaje in setLen :
+        dicLen[lenguaje] = 0
+    for idioma in dicLen:
+        for pais in datos:
+            if idioma in pais ['languages']:
+                dicLen [idioma] = pais ['population'] + dicLen[idioma]
+    sortValLenPopu = sorted(dicLen.values(),reverse= True)
+    sortKeyLenPopu = sorted(dicLen,key=dicLen.get,reverse= True)
+    return sortKeyLenPopu [:10],sortValLenPopu [:10]
+print(masHablados())
+print("--------------------------------------------------------------------------------------------------------------------")
+def paisesMasP ():
+    dicPobla = {
+
+    }
+    for pais in datos:
+        dicPobla[pais['name']] = pais['population']
+    sortValPopu = sorted(dicPobla.values(),reverse=True)
+    sortKeyPopu = sorted(dicPobla,key=dicPobla.get,reverse=True)
+    return sortKeyPopu[:10], sortValPopu[:10]
+print(paisesMasP())
+
