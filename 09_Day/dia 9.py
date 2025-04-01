@@ -94,3 +94,6 @@ if 'skills' in person:
 #4
 if person['is_marred'] == True and 'Finland' in person['country']:
     print('Asabeneh Yetayeh vive en Finland, y es casado')
+
+
+print("Revisado")
