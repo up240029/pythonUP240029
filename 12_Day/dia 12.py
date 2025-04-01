@@ -40,4 +40,5 @@ def listOfRgbColors (n):
    return[(random.randint(0,255),random.randint(0,255),random.randint(0,255)) for _ in range(n)]
 
 print(listOfRgbColors(5))
-#3
+
+   
