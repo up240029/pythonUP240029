@@ -40,5 +40,31 @@ def listOfRgbColors (n):
    return[(random.randint(0,255),random.randint(0,255),random.randint(0,255)) for _ in range(n)]
 
 print(listOfRgbColors(5))
+#3
+def generateColors(n, format='hex'):
+    
+    colors = []
 
-   
+    for _ in range(n):
+        if format == 'hex':
+            color = "#{:06x}".format(random.randint(0, 0xFFFFFF))
+        else: 
+            format == 'rgb'
+            color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+        
+        colors.append(color)
+    
+    return colors
+print(generateColors(3,'hex'))
+#Nivel 3
+#1
+def shuffleList(list):
+    shuffle = list[:]
+    random.shuffle(shuffle)
+    return shuffle
+print(shuffleList([1,2,3,4,5]))
+
+#2
+def uniqueNumbers ():
+    return random.sample(range(10),7)
+print(uniqueNumbers())
