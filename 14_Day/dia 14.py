@@ -61,6 +61,27 @@ def sixChart(countrie):
     return False
 rest = filter(sixChart,countries)
 print(list(rest))
+#6
+countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+def sixOrMoreCharst (countrie):
+    if len(countrie) >=6:
+        return True
+    return False
+rest = filter(sixOrMoreCharst,countries)
+print(list(rest))
+#7
+countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+def starWhitE (countrie):
+    return countrie.startswith("E")
+rest = filter(starWhitE,countries)
+print(list(rest))
+#8
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+resultado = reduce(
+    lambda x, y: x + y,map(lambda x: x * 2, filter(lambda x: x % 2 == 0, numbers)))
+print(resultado)
+#9
+
 
 
 
