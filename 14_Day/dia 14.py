@@ -160,3 +160,13 @@ def mostrarTop10Idiomas():
     for idioma, count in top10Idiomas:
         print(f"{idioma}: {count}")
 mostrarTop10Idiomas()
+#3
+def clasificarPaisesMasPoblados():
+    paisesOrdenados = sorted(paises.paises, key=lambda pais: pais["population"], reverse=True)
+    return paisesOrdenados[:10]
+def mostrarTop10PaisesMasPoblados():
+    top10Paises = clasificarPaisesMasPoblados()
+    print("Los 10 países más poblados son:")
+    for pais in top10Paises:
+        print(f"{pais['name']}: {pais['population']}")
+mostrarTop10PaisesMasPoblados()
