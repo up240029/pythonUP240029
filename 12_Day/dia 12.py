@@ -68,3 +68,5 @@ print(shuffleList([1,2,3,4,5]))
 def uniqueNumbers ():
     return random.sample(range(10),7)
 print(uniqueNumbers())
+
+print("revisado")

@@ -29,3 +29,6 @@ m = slope(2,3,5,7)
 print(m)
 print(yIntercept(2,3,m))
 # No se si este este bien hecho pero no supe muy bien como hacerlo 
+
+#Así es, con la función lambda se puede hacer
+print("revisado")
