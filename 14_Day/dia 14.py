@@ -81,7 +81,38 @@ resultado = reduce(
     lambda x, y: x + y,map(lambda x: x * 2, filter(lambda x: x % 2 == 0, numbers)))
 print(resultado)
 #9
-
-
-
-
+lista = [1,2,3,'hola','javi','marquez']
+def getSrtingsList(list):
+    return [item for item in list if isinstance(item, str)]
+rest = getSrtingsList(lista)
+print(rest)
+#10
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+def addNumbers (x,y):
+    return int(x) + int (y)
+total = reduce(addNumbers,numbers)
+print(total)
+#11
+countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+def paisOracion (x,y):
+    return x + ', ' + y
+oracion = reduce(paisOracion,countries)
+oracion1 = oracion + 'son paises de europa'
+print(oracion1)
+#12
+from paises import countries
+def categorizeCountries (countries,pattern):
+    return list(filter(lambda country: pattern in country.lower(),countries))
+print(categorizeCountries(countries,'land'))
+#13
+def countCountriesByInitial(countries):
+    return dict(map(lambda letter: (letter, sum(1 for country in countries if country.startswith(letter))), sorted(set(map(lambda x: x[0], countries)))))
+print(countCountriesByInitial(countries))
+#14
+def firsTen (countries):
+    return list(map(lambda x:x, countries[:10]))
+print(firsTen(countries))
+#15
+def LastTen (countries):
+    return list(map(lambda x:x, countries[-10:]))
+print(LastTen(countries))
